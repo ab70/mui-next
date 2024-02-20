@@ -1,0 +1,32 @@
+{
+  "name": "nextjs-admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/lab": "^5.0.0-alpha.165",
+    "@mui/material": "^5.15.10",
+    "@mui/material-nextjs": "latest",
+    "@popperjs/core": "^2.11.8",
+    "apexcharts-clevision": "^3.28.5",
+    "babel-eslint": "^10.1.0",
+    "clsx": "^2.1.0",
+    "mdi-material-ui": "^7.8.0",
+    "next": "14.1.0",
+    "nprogress": "^0.2.0",
+    "react": "^18",
+    "react-apexcharts": "^1.4.1",
+    "react-datepicker": "^6.1.0",
+    "react-dom": "^18",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-popper": "^2.3.0"
+  }
+}
