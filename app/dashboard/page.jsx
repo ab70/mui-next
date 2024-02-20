@@ -10,19 +10,19 @@ import BriefcaseVariantOutline from 'mdi-material-ui/BriefcaseVariantOutline'
 
 // ** Custom Components Imports
 // import CardStatisticsVerticalComponent from 'src/@core/components/card-statistics/card-stats-vertical'
-import CardStatisticsVerticalComponent from './@core/components/card-statistics/card-stats-vertical'
+import CardStatisticsVerticalComponent from '../@core/components/card-statistics/card-stats-vertical'
 // ** Styled Component Import
 // import ApexChartWrapper from 'src/@core/styles/libs/react-apexcharts'
-import ApexChartWrapper from './@core/styles/libs/react-apexcharts'
+import ApexChartWrapper from '../@core/styles/libs/react-apexcharts'
 
 // ** Demo Components Imports
-import Table from "./views/dashboard/Table"
-import Trophy from './views/dashboard/Trophy'
-import TotalEarning from './views/dashboard/TotalEarning'
-import StatisticsCard from './views/dashboard/StatisticsCard'
-import WeeklyOverview from './views/dashboard/WeeklyOverview'
-import DepositWithdraw from './views/dashboard/DepositWithdraw'
-import SalesByCountries from './views/dashboard/SalesByCountries'
+import Table from "../views/dashboard/Table"
+import Trophy from '../views/dashboard/Trophy'
+import TotalEarning from '../views/dashboard/TotalEarning'
+import StatisticsCard from '../views/dashboard/StatisticsCard'
+import WeeklyOverview from '../views/dashboard/WeeklyOverview'
+import DepositWithdraw from '../views/dashboard/DepositWithdraw'
+import SalesByCountries from '../views/dashboard/SalesByCountries'
 
 const Dashboard = () => {
   return (

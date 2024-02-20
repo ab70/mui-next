@@ -11,6 +11,7 @@ import { createEmotionCache } from './@core/utils/create-emotion-cache';
 import 'react-perfect-scrollbar/dist/css/styles.css';
 // import './styles/global.css';
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter"
+import BlankLayout from './@core/layouts/BlankLayout';
 
 export default function RootLayout({ children }) {
   const router = useRouter()
@@ -32,18 +33,17 @@ export default function RootLayout({ children }) {
     <>
       <html lang="en">
         <body>
-          <AppRouterCacheProvider>
+        <AppRouterCacheProvider>
             <SettingsProvider>
-              <SettingsConsumer>
-                {({ settings }) => (
-                  <ThemeComponent settings={settings}>
-                    <UserLayout>{children}</UserLayout>
-                  </ThemeComponent>
-                )}
-              </SettingsConsumer>
+                <SettingsConsumer>
+                    {({ settings }) => (
+                        <ThemeComponent settings={settings}>
+                            <BlankLayout>{children}</BlankLayout>
+                        </ThemeComponent>
+                    )}
+                </SettingsConsumer>
             </SettingsProvider>
-          </AppRouterCacheProvider>
-
+        </AppRouterCacheProvider>
         </body>
       </html>
     </>

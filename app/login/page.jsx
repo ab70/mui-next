@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 // ** Next Imports
 import Link from 'next/link'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 
 // ** MUI Components
 import Box from '@mui/material/Box'
@@ -32,13 +32,13 @@ import EyeOutline from 'mdi-material-ui/EyeOutline'
 import EyeOffOutline from 'mdi-material-ui/EyeOffOutline'
 
 // ** Configs
-import themeConfig from 'src/configs/themeConfig'
+import themeConfig from '@/app/configs/themeConfig'
 
 // ** Layout Import
-import BlankLayout from 'src/@core/layouts/BlankLayout'
+import BlankLayout from '@/app/@core/layouts/BlankLayout'
 
 // ** Demo Imports
-import FooterIllustrationsV1 from 'src/views/pages/auth/FooterIllustration'
+import FooterIllustrationsV1 from '@/app/views/pages/auth/FooterIllustration'
 
 // ** Styled Components
 const Card = styled(MuiCard)(({ theme }) => ({
@@ -247,6 +247,6 @@ const LoginPage = () => {
     </Box>
   )
 }
-LoginPage.getLayout = page => <BlankLayout>{page}</BlankLayout>
+// LoginPage.getLayout = page => <BlankLayout>{page}</BlankLayout>
 
 export default LoginPage
