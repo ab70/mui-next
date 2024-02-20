@@ -1,4 +1,4 @@
-// ** Next Imports
+"use client"
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 
@@ -58,7 +58,7 @@ const VerticalNavLink = ({ item, navVisible, toggleNavVisibility }) => {
       return false
     }
   }
-
+  console.log("list of items", item);
   return (
     <ListItem
       disablePadding

@@ -1,3 +1,4 @@
+"use client"
 /**
  ** Hex color to RGBA color
  */

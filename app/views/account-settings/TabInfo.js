@@ -1,4 +1,5 @@
 // ** React Imports
+"use client"
 import { forwardRef, useState } from 'react'
 
 // ** MUI Imports

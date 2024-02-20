@@ -1,4 +1,5 @@
 // ** MUI Theme Provider
+"use client"
 import { deepmerge } from '@mui/utils'
 
 // ** Theme Override Imports

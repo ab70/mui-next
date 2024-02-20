@@ -1,4 +1,4 @@
-// ** React Import
+"use client"
 import { useRef, useState } from 'react'
 
 // ** MUI Import

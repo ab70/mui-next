@@ -1,3 +1,4 @@
+"use client"
 const GlobalStyles = theme => {
   return {
     '.ps__rail-y': {

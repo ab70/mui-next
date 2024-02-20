@@ -1,4 +1,5 @@
 // ** MUI Imports
+"use client"
 import Card from '@mui/material/Card'
 import Grid from '@mui/material/Grid'
 import Button from '@mui/material/Button'

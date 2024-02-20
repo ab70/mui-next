@@ -1,4 +1,4 @@
-// ** MUI Imports
+"use client"
 import { styled, useTheme } from '@mui/material/styles'
 import MuiSwipeableDrawer from '@mui/material/SwipeableDrawer'
 

@@ -1,4 +1,5 @@
 // ** MUI Imports
+"use client"
 import Paper from '@mui/material/Paper'
 import Table from '@mui/material/Table'
 import TableRow from '@mui/material/TableRow'

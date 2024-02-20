@@ -1,4 +1,4 @@
-// ** Icon imports
+"use client"
 import Login from 'mdi-material-ui/Login'
 import Table from 'mdi-material-ui/Table'
 import CubeOutline from 'mdi-material-ui/CubeOutline'
@@ -10,8 +10,8 @@ import AccountPlusOutline from 'mdi-material-ui/AccountPlusOutline'
 import AlertCircleOutline from 'mdi-material-ui/AlertCircleOutline'
 import GoogleCirclesExtended from 'mdi-material-ui/GoogleCirclesExtended'
 
-const navigation = () => {
-  return [
+const NavigationItm =
+  [
     {
       title: 'Dashboard',
       icon: HomeOutline,
@@ -72,6 +72,6 @@ const navigation = () => {
       path: '/form-layouts'
     }
   ]
-}
 
-export default navigation
+
+export default NavigationItm

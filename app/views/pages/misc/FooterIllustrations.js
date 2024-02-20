@@ -1,4 +1,5 @@
 // ** React Imports
+"use client"
 import { Fragment } from 'react'
 
 // ** MUI Components

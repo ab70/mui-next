@@ -1,3 +1,4 @@
+"use client"
 import IconButton from '@mui/material/IconButton'
 
 // ** Icons Imports

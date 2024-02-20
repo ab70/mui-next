@@ -1,4 +1,4 @@
-// ** MUI Imports
+"use client"
 import { styled, useTheme } from '@mui/material/styles'
 import MuiAppBar from '@mui/material/AppBar'
 import MuiToolbar from '@mui/material/Toolbar'

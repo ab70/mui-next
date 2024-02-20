@@ -1,4 +1,4 @@
-// ** Custom Menu Components
+"use client"
 import VerticalNavLink from './VerticalNavLink'
 import VerticalNavSectionTitle from './VerticalNavSectionTitle'
 
@@ -11,7 +11,7 @@ const resolveNavItemComponent = item => {
 const VerticalNavItems = props => {
   // ** Props
   const { verticalNavItems } = props
-
+  console.log("verticalNavItems",  verticalNavItems);
   const RenderMenuItems = verticalNavItems?.map((item, index) => {
     const TagName = resolveNavItemComponent(item)
 

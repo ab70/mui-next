@@ -1,4 +1,5 @@
 // ** React Imports
+"use client"
 import { useState } from 'react'
 
 // ** MUI Imports

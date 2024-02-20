@@ -1,4 +1,4 @@
-// ** React Imports
+"use client"
 import { createContext, useState } from 'react'
 
 // ** ThemeConfig Import
